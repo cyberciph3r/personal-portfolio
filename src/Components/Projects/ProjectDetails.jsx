@@ -1,7 +1,6 @@
 import Image from "./Image/Image";
 import Desc from "./Desc/Desc";
 import useStyles from "./detailsStyles";
-
 import React from "react";
 
 const ProjectDetails = () => {
@@ -190,7 +189,7 @@ const ProjectDetails = () => {
         <Image
           src="/ProjectPreviews/pw.jpg"
           liveURL="https://varun-personal-portfolio.netlify.app"
-          gitURL=""
+          gitURL="https://github.com/cyberciph3r/personal-portfolio"
         />
       ),
       desc: (
@@ -209,7 +208,7 @@ const ProjectDetails = () => {
                   <span className={classes.boldTxt}> React</span>,{" "}
                   <span className={classes.boldTxt}> Three.js </span> (
                   <span className={classes.boldTxt}>React-Three-Fiber</span>),{" "}
-                  <span className={classes.boldTxt}> Material-UI</span>,
+                  <span className={classes.boldTxt}> Material-UI</span>
                 </li>
               </ul>
             </div>
