@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "bolder",
     fontFamily: "Montserrat",
     letterSpacing: 1,
+    textTransform: "none",
     "&:hover": {
       color: "white",
       backgroundColor: "black",

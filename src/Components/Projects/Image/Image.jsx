@@ -9,7 +9,7 @@ const Image = ({ src, liveURL, gitURL, isWA }) => {
     <Grid container className={classes.mainDiv}>
       <FadeIn>
         <div className={classes.imageDiv}>
-          <img src={src} className={classes.img} />
+          <img src={src} className={classes.img} loading="lazy" />
         </div>
         <div className={classes.btnDiv}>
           {isWA ? (
@@ -19,7 +19,7 @@ const Image = ({ src, liveURL, gitURL, isWA }) => {
                 window.open("https://youtu.be/bkN0nfbzAW0", "_blank");
               }}
             >
-              Demo
+              Video Demo
             </Button>
           ) : (
             <Button
@@ -28,7 +28,7 @@ const Image = ({ src, liveURL, gitURL, isWA }) => {
                 window.open(liveURL, "_blank");
               }}
             >
-              View Site
+              Website
             </Button>
           )}
           {isWA && (
@@ -41,7 +41,7 @@ const Image = ({ src, liveURL, gitURL, isWA }) => {
                 );
               }}
             >
-              App
+              Apk
             </Button>
           )}
           <Button

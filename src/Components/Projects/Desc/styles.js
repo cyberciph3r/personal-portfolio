@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     paddingBottom: "1rem",
-    fontFamily: "Oswald",
+    fontFamily: "Poppins",
     fontSize: "2rem",
     fontWeight: "bolder",
     letterSpacing: 2,
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   dsc: {
-    fontFamily: "Montserrat",
+    fontFamily: "Poppins",
     [theme.breakpoints.down("sm")]: {
       fontSize: "0.8rem",
     },

@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: "10%",
   },
   navEles: {
-    fontFamily: "Cinzel",
+    fontFamily: "Poppins",
     fontSize: "0.8rem",
     letterSpacing: 2,
     fontWeight: "600",

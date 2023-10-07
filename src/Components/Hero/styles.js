@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     paddingLeft: "10%",
     color: "white",
+    zIndex: 9,
   },
   helloWorld: {
     fontFamily: "Cinzel",

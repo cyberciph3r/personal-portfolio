@@ -10,65 +10,65 @@ const ProjectDetails = () => {
     {
       image: (
         <Image
-          src="/ProjectPreviews/ckrets.jpg"
-          liveURL="https://ckrets.netlify.app/"
-          gitURL="https://github.com/cyberciph3r/Ckrets"
+          src="/ProjectPreviews/meetease.png"
+          liveURL="https://meetease.netlify.app/"
+          gitURL="https://github.com/cyberciph3r/MeetEase"
         />
       ),
       desc: (
         <Desc
-          title="Ckrets"
+          title="MeetEase"
           description={
             <div>
               <ul className={classes.ul}>
                 <li className={classes.li}>
-                  A captivating{" "}
-                  <span className={classes.boldTxt}>full-stack (MERN)</span> web
-                  application designed to provide individuals with a platform to
-                  <span className={classes.boldTxt}> anonymously share </span>
-                  their deepest secrets ensuring utmost
-                  <span className={classes.boldTxt}> privacy </span>and freedom
-                  of expression.
-                </li>
-                <li className={classes.li}>
-                  Utilized<span className={classes.boldTxt}> MongoDB </span>to
-                  securely
-                  <span className={classes.boldTxt}> store and manage </span>
-                  user posts.
-                </li>
-                <li className={classes.li}>
-                  Developed a visually appealing and user-friendly frontend
-                  using<span className={classes.boldTxt}> React</span>, enhanced
-                  with the
-                  <span className={classes.boldTxt}> Material-UI library</span>,
-                  for a modern and polished UI design.
-                </li>
-                <li className={classes.li}>
-                  The upcoming reactions feature will enable users to engage
-                  with others' posts.
-                </li>
-                <li className={classes.li}>
+                  A{" "}
                   <span className={classes.boldTxt}>
-                    Google authentication{" "}
+                    full-stack web application
+                  </span>{" "}
+                  that empowers users to seamlessly{" "}
+                  <span className={classes.boldTxt}>
+                    create and manage appointments
                   </span>
-                  has been implemented to ensure
-                  <span className={classes.boldTxt}> reaction integrity </span>
-                  and prevent duplication or spamming, providing a secure and
-                  authentic environment. Users' privacy and anonymity are
-                  preserved, guaranteeing a safe space for expression.
+                  .
                 </li>
                 <li className={classes.li}>
-                  Utilized<span className={classes.boldTxt}> Node.js </span>and
-                  <span className={classes.boldTxt}> Express.js </span>to power
-                  the backend, enabling efficient
+                  Utilized <span className={classes.boldTxt}>MySQL </span>to
+                  securely store and manage appointment details and user data,
+                  enabling <span className={classes.boldTxt}>CRUD </span>
+                  operations on appointments.
+                </li>
+                <li className={classes.li}>
+                  Utilized <span className={classes.boldTxt}>Express.js </span>
+                  and <span className={classes.boldTxt}>Node.js </span>to drive
+                  the backend, managing routing and establishing{" "}
+                  <span className={classes.boldTxt}>RESTful API endpoints</span>
+                  .
+                </li>
+                <li className={classes.li}>
+                  Developed a responsive, visually appealing, and user-friendly
+                  frontend using <span className={classes.boldTxt}>React</span>,
+                  enhanced with the{" "}
+                  <span className={classes.boldTxt}>Material UI </span>library.
+                </li>
+                <li className={classes.li}>
+                  Integrated{" "}
                   <span className={classes.boldTxt}>
-                    {" "}
-                    server-side processing
+                    Google Authentication{" "}
                   </span>
-                  , <span className={classes.boldTxt}>routing</span>, and
-                  creation of
-                  <span className={classes.boldTxt}> RESTful API </span>{" "}
-                  endpoints for seamless communication with the frontend.
+                  for heightened security and the acquisition of user
+                  information.
+                </li>
+                <li className={classes.li}>
+                  Integrated{" "}
+                  <span className={classes.boldTxt}>Google Calendar API </span>
+                  to{" "}
+                  <span className={classes.boldTxt}>
+                    automate event creation{" "}
+                  </span>
+                  in hosts' Google Calendar upon appointment bookings, with
+                  email notifications sent to both hosts and users for event
+                  updates.
                 </li>
               </ul>
             </div>
@@ -76,6 +76,7 @@ const ProjectDetails = () => {
         />
       ),
     },
+
     {
       image: (
         <Image
@@ -138,6 +139,7 @@ const ProjectDetails = () => {
         />
       ),
     },
+
     {
       image: (
         <Image
@@ -159,7 +161,8 @@ const ProjectDetails = () => {
                     {" "}
                     group chat mobile application
                   </span>{" "}
-                  with Dart as the programming language.
+                  with<span className={classes.boldTxt}> Dart </span>as the
+                  programming language.
                 </li>
                 <li className={classes.li}>
                   Established a seamless and connected chat experience, ensuring
@@ -172,11 +175,21 @@ const ProjectDetails = () => {
                   functionality, allowing instant exchange of messages.
                 </li>
                 <li className={classes.li}>
-                  Utilized{" "}
+                  Utilized
+                  <span className={classes.boldTxt}>
+                    {" "}
+                    Firebase Authentication{" "}
+                  </span>
+                  for
+                  <span className={classes.boldTxt}> user registration </span>
+                  and<span className={classes.boldTxt}> authentication</span>.
+                </li>
+
+                <li className={classes.li}>
+                  Implemented{" "}
                   <span className={classes.boldTxt}> Firebase Firestore </span>
                   as the <span className={classes.boldTxt}> back-end </span>
-                  for secure account creation, reliable data storage, and
-                  efficient message delivery.
+                  for data storage and efficient message delivery.
                 </li>
               </ul>
             </div>
@@ -184,31 +197,62 @@ const ProjectDetails = () => {
         />
       ),
     },
+
     {
       image: (
         <Image
-          src="/ProjectPreviews/pw.jpg"
-          liveURL="https://varun-personal-portfolio.netlify.app"
-          gitURL="https://github.com/cyberciph3r/personal-portfolio"
+          src="/ProjectPreviews/ckrets.jpg"
+          liveURL="https://ckrets.netlify.app/"
+          gitURL="https://github.com/cyberciph3r/Ckrets"
         />
       ),
       desc: (
         <Desc
-          title="Portfolio."
+          title="Ckrets"
           description={
             <div>
               <ul className={classes.ul}>
                 <li className={classes.li}>
-                  My
-                  <span className={classes.boldTxt}> Personal Portfolio </span>
-                  website.
+                  A captivating{" "}
+                  <span className={classes.boldTxt}>full-stack (MERN)</span> web
+                  application designed to provide users with a platform to
+                  <span className={classes.boldTxt}> anonymously share </span>
+                  their deepest<span className={classes.boldTxt}> secrets</span>
+                  .
                 </li>
                 <li className={classes.li}>
-                  Frontend:
-                  <span className={classes.boldTxt}> React</span>,{" "}
-                  <span className={classes.boldTxt}> Three.js </span> (
-                  <span className={classes.boldTxt}>React-Three-Fiber</span>),{" "}
-                  <span className={classes.boldTxt}> Material-UI</span>
+                  Utilized<span className={classes.boldTxt}> MongoDB </span>to
+                  securely
+                  <span className={classes.boldTxt}> store and manage </span>
+                  user posts.
+                </li>
+                <li className={classes.li}>
+                  Developed a visually appealing and user-friendly frontend
+                  using<span className={classes.boldTxt}> React</span>, enhanced
+                  with the
+                  <span className={classes.boldTxt}> Material-UI library</span>,
+                  for a modern and polished UI design.
+                </li>
+                <li className={classes.li}>
+                  Integrated{" "}
+                  <span className={classes.boldTxt}>
+                    Google authentication{" "}
+                  </span>
+                  for secure user authentication, ensuring privacy, and
+                  anonymity.
+                </li>
+                <li className={classes.li}>
+                  Utilized<span className={classes.boldTxt}> Node.js </span>and
+                  <span className={classes.boldTxt}> Express.js </span>to power
+                  the backend, enabling efficient
+                  <span className={classes.boldTxt}>
+                    {" "}
+                    server-side processing
+                  </span>
+                  , <span className={classes.boldTxt}>routing</span>, and
+                  creation of
+                  <span className={classes.boldTxt}> RESTful API </span>{" "}
+                  endpoints for seamless communication with the frontend.
                 </li>
               </ul>
             </div>
